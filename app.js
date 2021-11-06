@@ -1,3 +1,1 @@
-import main from './scripts/main.js';
-
-window.addEventListener('DOMContentLoaded', main);
+import main from"./scripts/main.min.js";window.addEventListener("DOMContentLoaded",main);
