@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Birth Date Guesser App</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/main.css">
-  <title>Birth Date Guesser App</title>
-</head>
+  <body>
+    <h1 class="title">Welcome To<br />Birth Date Guesser</h1>
 
-<body>
+    <p>How to Play?</p>
+    <ul>
+      <li>
+        1. You will find 5 boxes, each containing numbers arranged from 1 to 31.
+      </li>
+      <li>2. Look at the numbers on all the cards provided.</li>
+      <li>
+        3. If your birth number appears on multiple cards, select it by checking
+        the corresponding box.
+      </li>
+      <li>
+        4. Once you've selected all relevant birth numbers, click the button
+        located at the bottom to make your birthday guess.
+      </li>
+      <li>5. That's it! You're done.</li>
+    </ul>
 
-  <h1 class="title">Welcome To<br>Birth Date Guesser</h1>
+    <main>
+      <h2 class="title">Lets Begin!</h2>
+      <div class="card-list"></div>
+      <button type="button" id="checkResult">Guess my birth date!</button>
+    </main>
 
-  <p>How To Play?</p>
-  <ul>
-    <li>There are 5 boxes containing numbers that have been arranged from 1 to 31.</li>
-    <li>Then check numbers on all cards.</li>
-    <li>If on several cards there is your birth number, then select it by checking the box provided.</li>
-    <li>Then click the button at the bottom, to guess your birthday.</li>
-    <li>And that's it!</li>
-  </ul>
-
-  <p>Any Question?</p>
-  <ul>
-    <li><a href="https://api.whatsapp.com/send?phone=+6285720959031" target="_blank">Ask us on Whatsapp</a></li>
-    <li><a href="https://instagram.com/deri561" target="_blank">Ask us on Instagram</a></li>
-    <li><a href="mailto:deri.netuchi@gmail.com" target="_blank">Ask us on Email</a></li>
-  </ul>
-
-  <main>
-    <h2 class="title">Lets Begin!</h2>
-    <div class="card-list"></div>
-    <button type="button" id="checkResult">Guess my birth date!</button>
-  </main>
-
-  <script src="./app.js" type="module"></script>
-</body>
-
+    <script src="./app.js" type="module"></script>
+  </body>
 </html>
